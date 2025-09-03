@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Press Kit Zol Ekaterina</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .whatsapp-icon {
+            width: 2rem;
+            height: 2rem;
+            fill: currentColor;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-100 min-h-screen flex items-center justify-center">
+
+    <div class="container mx-auto p-4 md:p-8 max-w-2xl">
+        <!-- HEADER SECTION -->
+        <header class="text-center mb-8 md:mb-12">
+            <h1 class="text-4xl md:text-5xl font-bold tracking-tight text-white mb-2">ZOL EKATERINA</h1>
+            <h2 class="text-lg md:text-xl font-light text-gray-400">DJ | MODELO/ACTRIZ/ARTISTA MULTIDISCIPLINARIA</h2>
+        </header>
+
+        <!-- IMAGES SECTION -->
+        <div class="flex flex-col md:flex-row gap-4 mb-8">
+            <div class="w-full md:w-1/2">
+                <img src="https://placehold.co/600x400/1e293b/d1d5db?text=ZOL+EKATERINA" alt="Zol Ekaterina" class="w-full h-auto rounded-xl shadow-lg">
+            </div>
+            <div class="w-full md:w-1/2">
+                <img src="https://placehold.co/600x400/1e293b/d1d5db?text=DJ+Performance" alt="DJ Performance" class="w-full h-auto rounded-xl shadow-lg">
+            </div>
+        </div>
+        
+        <!-- CONTACT AND BOOKING SECTION -->
+        <section class="bg-gray-800 p-6 rounded-2xl shadow-lg mb-8">
+            <h3 class="text-xl font-bold text-white mb-4">Contacto y Booking</h3>
+            <div class="space-y-4">
+                <a href="https://wa.me/525584692375" class="flex items-center gap-4 text-green-400 hover:text-green-300 transition-colors">
+                    <!-- WhatsApp Icon SVG -->
+                    <svg class="whatsapp-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12.04 2C7.38 2 3.52 5.86 3.52 10.52c0 1.98.67 3.82 1.83 5.3l-1.92 4.71 4.8-1.87c1.37.74 2.92 1.15 4.38 1.15C16.7 20 20.56 16.14 20.56 11.48S16.7 2 12.04 2zm3.3 12.83c-.2-.1-.8-.4-.9-.5-.2-.1-.4-.1-.5.1-.2.2-.7.9-.8 1-.1.2-.2.2-.4.1-.2-.1-.8-.3-1.5-.9-.5-.4-1-1-1.4-1.6-.4-.6-.2-.6-.1-.7.1-.2.3-.4.4-.5.1-.1.2-.2.3-.4.1-.2 0-.4-.1-.4-.1-.2-.5-.5-.6-.6-.1-.1-.3-.2-.5-.2-.1 0-.3 0-.4.1-.2.1-.8.9-.8 1.1-.1.2-.1.5.1.7.2.2.8 1.2.9 1.3.1.2.3.2.4.1.2 0 .8-.3 1-.5.2-.2.4-.4.5-.6.2-.2.3-.2.4-.1.2 0 .9.5 1 .7.2.2.2.3.1.5z"/>
+                    </svg>
+                    <span class="text-lg font-medium">5584692375</span>
+                </a>
+                <a href="mailto:djzol.ekaterina@gmail.com" class="flex items-center gap-4 text-white hover:text-gray-300 transition-colors">
+                    <!-- Mail Icon SVG -->
+                    <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+                        <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+                    </svg>
+                    <span class="text-lg font-medium">djzol.ekaterina@gmail.com</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- MAIN CONTENT SECTIONS -->
+        <section class="bg-gray-800 p-6 rounded-2xl shadow-lg mb-8">
+            <p class="text-base text-gray-300 mb-4">
+                DJ, modelo y artista multidisciplinaria. Pasión por la música y el arte que se refleja en la fusión de géneros electrónicos, creando sonidos envolventes y futuristas.
+                Además de dicha faceta musical, Zol Ekaterina se ha destacado en la actuación, modelaje, conducción, locución, pintura y fotografía, lo que le permite ofrecer experiencias sonoras únicas en cada una de sus presentaciones.
+            </p>
+            
+            <h3 class="text-xl font-bold text-white mb-4">Trayectoria Musical</h3>
+            <ul class="list-disc list-inside space-y-2 text-gray-300">
+                <li>DJ, locutora y productora con presencia en clubes y festivales clave.</li>
+                <li>Proyección internacional en ProtonRadio (Miami), TM RADIO (Londres) y House Ants (Minneapolis).</li>
+                <li>App Global YO (transmisión global), Doblaje con Martha Ceceña y producción musical junto a Ali X y Adrián Reynaga.</li>
+                <li>Creadora y host de #Melomaniac (Yo Mobile) y DJ residente en Club Lava, App Pinche Radio actualmente.</li>
+            </ul>
+        </section>
+
+        <section class="bg-gray-800 p-6 rounded-2xl shadow-lg mb-8">
+            <h3 class="text-xl font-bold text-white mb-4">Play Music</h3>
+            <ul class="list-disc list-inside space-y-2 text-gray-300">
+                <li>Presentaciones en CDMX, Valle de Bravo, Guanajuato, Querétaro, Puebla, Oaxaca, Morelos, Acapulco, Playa del Carmen, y Puerto Escondido.</li>
+            </ul>
+            <h4 class="text-lg font-semibold text-white mt-4 mb-2">Showcase</h4>
+            <p class="text-gray-300 mb-2">#Melomaniac by Zol Ekaterina</p>
+            <p class="text-gray-300">App Yo Mobile (2023-2025)</p>
+            <p class="text-gray-300">Lunes a viernes de 7 a 10 pm</p>
+            <p class="text-gray-300">Sets de DJ en vivo, variedad de géneros, invitados especiales.</p>
+        </section>
+
+        <section class="bg-gray-800 p-6 rounded-2xl shadow-lg mb-8">
+            <h3 class="text-xl font-bold text-white mb-4">Especialidad</h3>
+            <p class="text-base text-gray-300">
+                Energía en vivo y sets cuidadosamente diseñados que viajan entre el Downtempo más etéreo y el Techno más hipnótico. Una fusión audaz de géneros como Ambient, Trip-Hop, Lo-fi, Chill-out, House, Nu Disco, Indie, Italo Disco, Progressive...
+            </p>
+        </section>
+
+    </div>
+
+</body>
+</html>
